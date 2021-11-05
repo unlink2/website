@@ -1,5 +1,6 @@
 
 export default {
+    target: 'static', // default is 'server'
     title: 'my website title',
     meta: [
       { charset: 'utf-8' },
