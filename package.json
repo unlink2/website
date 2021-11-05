@@ -1,0 +1,27 @@
+{
+  "name": "website",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "lint": "eslint . --ignore-path .gitignore --ext .vue,.js",
+    "lint:fix": "yarn lint --fix",
+    "test": "jest"
+  },
+  "dependencies": {
+    "nuxt": "^2.15.8",
+    "nuxt-buefy": "^0.4.11"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@nuxtjs/eslint-config": "^7.0.0",
+    "@vue/test-utils": "^1.2.2",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^27.3.1",
+    "eslint": "^8.1.0",
+    "jest": "^27.3.1",
+    "vue-jest": "^3.0.7"
+  }
+}

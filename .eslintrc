@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "rules" : {
+      "indent": ["error", 4]
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "extends": [
+    "@nuxtjs"
+  ]
+}
