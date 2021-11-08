@@ -16,7 +16,7 @@ RUN yarn run generate
 
 EXPOSE 3000
 
-ENV NUXT_HOST=0.0.0.0
-ENV NUXT_PORT=3000
+ENV HOST=0.0.0.0
+ENV PORT=3000
 
 CMD ["yarn", "run", "start"]
