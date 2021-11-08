@@ -1,4 +1,4 @@
-FROM node:17-bullseye
+FROM node:16-bullseye
 
 # setup
 RUN mkdir -p /usr/src/website
