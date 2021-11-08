@@ -19,4 +19,4 @@ EXPOSE 3000
 ENV HOST=0.0.0.0
 ENV PORT=3000
 
-CMD ["yarn", "run", "start"]
+CMD ["HOST=0.0.0.0", "PORT=3000", "yarn", "run", "start"]
