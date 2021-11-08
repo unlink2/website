@@ -8,7 +8,7 @@ RUN apt update -y && apt upgrade -y
 RUN apt install -y git
 
 COPY . /usr/src/website
-RUN npm install --global yarn
+# RUN npm install --global yarn
 RUN yarn install
 RUN yarn run build
 
