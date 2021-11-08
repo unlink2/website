@@ -4,8 +4,8 @@ FROM node:17-bullseye
 RUN mkdir -p /usr/src/website
 WORKDIR /usr/src/website
 
-RUN apt update && apt upgrade
-RUN apt install git
+RUN apt update -y && apt upgrade -y
+RUN apt install -y git
 
 COPY . /usr/src/website
 RUN npm install
