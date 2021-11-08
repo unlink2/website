@@ -7,7 +7,9 @@
     "start": "nuxt start",
     "lint": "eslint . --ignore-path .gitignore --ext .vue,.js",
     "lint:fix": "yarn lint --fix",
-    "test": "jest"
+    "test": "jest",
+    "docker": "docker build -t website .",
+    "docker:run": "docker run -it -p 3000:3000 website"
   },
   "dependencies": {
     "nuxt": "^2.15.8",
