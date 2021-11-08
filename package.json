@@ -5,6 +5,7 @@
     "build": "nuxt build",
     "generate": "nuxt generate",
     "start": "nuxt start",
+    "start:docker": "HOST=0.0.0.0 PORT=3000 nuxt start",
     "lint": "eslint . --ignore-path .gitignore --ext .vue,.js",
     "lint:fix": "yarn lint --fix",
     "test": "jest",
