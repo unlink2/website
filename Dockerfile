@@ -12,6 +12,7 @@ COPY . /usr/src/website
 # RUN npm install --global yarn
 RUN yarn install
 RUN yarn run build
+RUN yarn run generate
 
 EXPOSE 3000
 
