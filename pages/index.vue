@@ -3,7 +3,7 @@
     <div class="tile is-vertical is-12">
       <div class="tile">
         <div class="tile is-parent is-vertical">
-          <Baremetal class="tile is-child notification is-primary" />
+          <Stvi class="tile is-child notification is-primary" />
           <Nusstool />
           <Yadasm />
         </div>
