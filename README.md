@@ -11,9 +11,13 @@
 
 ## Installation
 
+`gem install jekyll bundler`
+
 ## Usage
 
 `bundle exec jekyll serve`
+
+`bundle exec jekyll build`
 
 ## License
 
